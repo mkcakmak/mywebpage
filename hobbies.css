@@ -165,11 +165,6 @@ section {
 }
 
 
-
-
-
-
-
 /* Footer */
 
 .icon{
@@ -184,6 +179,9 @@ section {
 .icon a:hover{
     opacity: 1;
 }
+
+
+
 
 
 @media only screen and (max-width: 50rem){
