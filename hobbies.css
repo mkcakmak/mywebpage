@@ -31,7 +31,7 @@ html {
     height: 100%;
     opacity: 0.25;
     background-image: url("images/background.jpeg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
   }
@@ -96,56 +96,77 @@ a {
     
 }
 
-/* Main Start*/
+h2 {
+    color: rgb(102, 57, 24);
+    text-align: center;
+    margin-top: 2rem; 
+    font-size: 3.5rem;
+    font-family: fantasy;
+    opacity: 0.9;
+}
 
-img{
+h2:hover{
+    opacity: 1;
+}
+
+
+/*Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    opacity: 0.8;
     width: 100%;
 }
-.diplomas {
+
+img:hover {
+    opacity: 0.9;   
+}
+
+.reading img {
+    height: 50rem;
+    max-width: 40rem;
+    margin-left: 10rem;
+}
+
+p {
+    padding: 2rem ;
+    font-family: fantasy;
+    opacity: 0.9;
+    color:rgb(5, 25, 29);
+}
+
+p:hover{
+    opacity: 1;
+}
+p::first-letter {   
+    font-size: 5rem;
+}
+
+    
+
+
+section {
     display: flex;
-    flex-direction:row;
     flex-wrap: wrap;
-    border: 0.3rem solid rgb(207, 214, 221);
+    flex: 0 1 50rem;
+    border: 0.3rem solid rgb(178, 192, 206);
     border-radius: 1rem;
     padding: 3rem;
     margin: 3rem;
-    
-
 }
-.diplom {
+
+.hobby {
     flex: 1 1 50rem;
-    margin: 3rem;
-    opacity: 0.8;
+    padding:2rem;
 }
 
-.diplom:hover {
-    opacity: 1;
-}
-.certificates {
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    border: 0.3rem solid rgb(193, 201, 211);
-    border-radius: 1rem; 
-    padding: 3rem;
-    margin: 3rem;
-}
 
-.cert {
-    flex: 1 1 50rem;
-    margin: 3rem;
-    opacity: 0.8;
-}
 
-.cert:hover {
-    opacity: 1;
-}
 
-.explanation {
-    margin: 3rem;
-    font-family: fantasy;
-    color:rgb(5, 25, 29);
-}
 
 
 
@@ -165,17 +186,13 @@ img{
 }
 
 
-
-
-
-
 @media only screen and (max-width: 50rem){
     html{
         font-size: 0.5em;
     }
 
-    img{
-        margin: 0 auto;
+    .reading img {
+        margin-left: 0;
     }
     
 }   
