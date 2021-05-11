@@ -105,9 +105,9 @@ img{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    border: 0.3rem solid rgb(207, 214, 221);
+    border: 0.3rem solid rgb(154, 173, 192);
     border-radius: 1rem;
-    padding: 3rem;
+    padding: 5rem;
     margin: 3rem;
     
 
@@ -127,7 +127,7 @@ img{
     flex-wrap: wrap;
     border: 0.3rem solid rgb(193, 201, 211);
     border-radius: 1rem; 
-    padding: 3rem;
+    padding: 5rem;
     margin: 3rem;
 }
 

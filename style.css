@@ -55,6 +55,9 @@ h1:hover{
     opacity: 1;
 }
 
+/* Hamburger Nav */
+
+
 /* Navbar */
 
 
@@ -87,9 +90,7 @@ li:hover{
     opacity: 1;
 }
 
-ul>a{
-    display: none;
-}
+
 
 a {
     text-decoration: none;
@@ -184,7 +185,7 @@ p::first-letter {
     
 }   
 
-@media only screen and (max-width: 80rem){
+@media only screen and (max-width: 89.9 rem){
     html{
         font-size: 0.6em;
     }
