@@ -62,18 +62,22 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     border: 0.2rem solid rgb(110, 151, 158);
     border-radius: 1rem;
     padding: 1rem;
     margin: 0 1rem;  
+}
+.links{
+    margin-left: 20rem;
+    margin-top: 1rem;
 }
 
 li{
     display: inline-block;
     min-width: 6rem;
     background-color: rgb(189, 227, 228);
-    border: 0.2rem solid rgb(4, 25, 29);
+    border: 0.1rem solid rgb(4, 25, 29);
     border-radius: 1rem;
     padding-top: 1rem;
     padding-right: 3rem;
@@ -115,6 +119,7 @@ h2:hover{
 main{
     display: flex;
     flex-direction: column;
+    padding: 5rem;
 }
 
 img {
@@ -191,6 +196,10 @@ section {
 
     .reading img {
         margin-left: 0;
+    }
+    .links{
+        margin-left: 7rem;
+       
     }
     
 }   

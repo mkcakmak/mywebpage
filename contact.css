@@ -45,7 +45,7 @@ html {
 h1 {
     color: rgb(102, 57, 24);
     text-align: center;
-    margin: 2rem;
+    margin: 4rem;
     font-size: 3.5rem;
     font-family: fantasy;
     opacity: 0.9;
@@ -55,6 +55,9 @@ h1:hover{
     opacity: 1;
 }
 
+/* Hamburger Nav */
+
+
 /* Navbar */
 
 
@@ -62,18 +65,22 @@ ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     border: 0.2rem solid rgb(110, 151, 158);
     border-radius: 1rem;
     padding: 1rem;
     margin: 0 1rem;  
 }
+.links{
+    margin-left: 20rem;
+    margin-top: 1rem;
 
+}
 li{
     display: inline-block;
     min-width: 6rem;
     background-color: rgb(189, 227, 228);
-    border: 0.2rem solid rgb(4, 25, 29);
+    border: 0.1rem solid rgb(4, 25, 29);
     border-radius: 1rem;
     padding-top: 1rem;
     padding-right: 3rem;
@@ -87,6 +94,8 @@ li:hover{
     opacity: 1;
 }
 
+
+
 a {
     text-decoration: none;
     color:rgb(3, 19, 22);
@@ -96,21 +105,26 @@ a {
     
 }
 
-h2 {
-    color: rgb(102, 57, 24);
-    text-align: center;
-    margin-top: 2rem; 
-    font-size: 3.5rem;
+/* About me */
+
+main{
+    height: 80rem;
+}
+
+
+p {
+    padding: 10rem 5rem ;
     font-family: fantasy;
     opacity: 0.9;
+    color:rgb(5, 25, 29);
 }
 
-h2:hover{
+p:hover{
     opacity: 1;
 }
-
-
-
+p::first-letter {   
+    font-size: 5rem;
+}
 
 /* Footer */
 
@@ -128,13 +142,24 @@ h2:hover{
 }
 
 
-
-
-
-@media only screen and (max-width: 70rem){
+@media only screen and (max-width: 50rem){
     html{
         font-size: 0.5em;
     }
 
-  
+
+    
 }   
+
+@media only screen and (max-width: 89.9rem){
+    html{
+        font-size: 0.5em;
+    }
+    
+    .links{
+        margin-left: 7rem;
+       
+    }
+
+    
+} 
